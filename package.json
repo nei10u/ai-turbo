@@ -6,5 +6,8 @@
   },
   "devDependencies": {
     "vitepress": "^1.0.0-rc.25"
+  },
+  "dependencies": {
+    "build": "^0.1.4"
   }
 }
