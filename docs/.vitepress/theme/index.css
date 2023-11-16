@@ -1,0 +1,7 @@
+.feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* 这将确保所有项目的高度相同 */
+  gap: 20px; /* 为卡片之间添加间隙 */
+}
