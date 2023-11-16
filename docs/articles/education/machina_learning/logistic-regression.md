@@ -28,7 +28,7 @@ Logistic regression is like that friendly guide that helps us trek through the b
 Logistic regression estimates the probability of an event occurring (like casting a vote or identifying a spam email) based on a dataset of independent variables. Unlike linear regression, which predicts a continuous outcome, logistic regression predicts the probability of a discrete outcome, which is mapped to a binary value (0 or 1, Yes or No). The beauty of logistic regression lies in its simplicity and the way it bounds the outcome between 0 and 1, thanks to the logistic function (also known as the sigmoid function):
 > 逻辑回归根据自变量数据集估计事件发生（如投票或识别垃圾邮件）的概率。与预测连续结果的线性回归不同，逻辑回归预测离散结果的概率，该结果映射到二进制值（0 或 1，是或否）。逻辑回归的美妙之处在于它的简单性以及它将结果限制在 0 和 1 之间的方式，这要归功于逻辑函数（也称为 sigmoid 函数）：
 
-![Alt text](/images/lr_1.png)
+![Alt text](/docs/images/lr_1.png)
 
 Here, 这里
 - P(Y=1) is the probability of the binary outcome being 1.
@@ -57,7 +57,7 @@ Venturing into the algorithmic heart of logistic regression is like understandin
 
 3. **Calculation of Prediction**: Using the logistic (sigmoid) function, calculate the probability of the binary outcome being 1 for each observation in the data:
 > 3. **预测的计算**：使用逻辑（sigmoid）函数，计算数据中每个观测值的二元结果为1的概率：
-![Alt text](/images/lr_2.png)
+![Alt text](/docs/images/lr_2.png)
 4. **Evaluation of Log-Likelihood**: Compute the log-likelihood of observing the given set of outcomes with the current coefficients.
 > 4. **对数似然评估**：计算使用当前系数观察给定结果集的对数似然。
 
